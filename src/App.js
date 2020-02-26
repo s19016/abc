@@ -50,8 +50,7 @@ class App extends React.Component {
         }))
 
     const options = { method: 'get' }
-    const uri =
-      'http://api.openweathermap.org/data/2.5/weather?lang=ja&units=metric'
+    const uri = 'http://api.openweathermap.org/data/2.5/weather?'
     const params = `&appid=${this.apiToken}&id=${id}`
     const data = await getJSON(uri + params, options)
     this.setState({ item: data })
@@ -67,11 +66,16 @@ class App extends React.Component {
   async componentDidMount () {
     this.setState({
       data: [
-        { name: '那覇市', id: 1856035 },
-        { name: '名護市', id: 1856068 },
-        { name: '沖縄市', id: 1894616 },
-        { name: '恩納市', id: 1854037 },
-        { name: '北谷市', id: 1864652 }
+        { name: '那覇', id: 1856035 },
+        { name: '名護', id: 1856068 },
+        { name: '沖縄', id: 1894616 },
+        { name: '恩納', id: 1854037 },
+        { name: '北谷', id: 1864652 },
+        { name: '今帰仁', id: 1855713 },
+        { name: '座間味', id: 1848002 },
+        { name: '西', id: 1855357 },
+        { name: '本部', id: 1894388 },
+        { name: '伊是名', id: 1861124 }
       ]
     })
   }
