@@ -13,7 +13,8 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-scripts": "3.3.1",
-    "styled-components": "^5.0.1"
+    "styled-components": "^5.0.1",
+    "gh-pages": "^2.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -37,8 +38,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ],
-  "devDependencies": {
-    "gh-pages": "^2.2.0"
-  },
   "homepage": "https://s19016.github.io/abc/"
+  }
 }
