@@ -37,9 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ],
-    "homepage": "https://s19016.github.io/abc/"
-  },
   "devDependencies": {
     "gh-pages": "^2.2.0"
-  }
+  },
+  "homepage": "https://s19016.github.io/abc/"
 }

@@ -86,7 +86,7 @@ class App extends React.Component {
       <Card>
         <div class='title'>
           <CardHeader width='auto' />
-          <CardHeader title='沖縄の都市天気' />
+          <CardHeader title='都市天気' />
         </div>
         <CardActions>
           <SelectorView
